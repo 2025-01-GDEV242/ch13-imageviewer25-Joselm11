@@ -1,7 +1,7 @@
 import java.awt.Color;
 
 /**
- * An image filter to remove color from an image.
+ * An image filter to tint an image.
  * 
  * @author Michael Kölling and David J. Barnes.
  * @version 1.0
@@ -9,7 +9,7 @@ import java.awt.Color;
 public class RedTintFilter extends Filter
 {
     /**
-     * Constructor for objects of class GrayScaleFilter.
+     * Constructor for objects of class RedTintFilter.
      * @param name The name of the filter.
      */
     public RedTintFilter(String name)

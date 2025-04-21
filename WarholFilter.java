@@ -19,6 +19,11 @@ public class WarholFilter extends Filter
     private GreenTintFilter greenFilter;
     private BlueTintFilter blueFilter;
 
+    /**
+     * Constructor for the WarholFilter class.
+     * 
+     * @param name The name of the filter.
+     */
     public WarholFilter(String name)
     {
         super(name);
@@ -27,6 +32,9 @@ public class WarholFilter extends Filter
         blueFilter = new BlueTintFilter("Blue");
     }
 
+    /**
+     * Apply's the filter to the image
+     */
     public void apply(OFImage image)
     {
         int width = image.getWidth() / 2;
